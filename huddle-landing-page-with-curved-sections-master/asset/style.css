@@ -108,7 +108,9 @@
     margin-left: 20rem;
 } 
 
-
+.main-wrapper{
+    margin-top: 5rem;
+}
 
 .middle-wrapper{
      display: flex;
@@ -125,4 +127,10 @@
 .middle-wrapper-content-image img{
 width: 450px;
 height: 450px;
+} 
+
+.middle-wrapper2{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;    
 }
