@@ -83,4 +83,46 @@
 
 .middle-content svg{
     margin-top: 7rem;
+} 
+
+
+.small-content svg{
+    margin-top: 10rem;
+}  
+
+
+.third-section .small-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 5rem;
+   
+} 
+
+.small-text-content1{
+    margin-right: 10rem;
+} 
+
+.small-text-content2{
+    margin-left: 20rem;
+} 
+
+
+
+.middle-wrapper{
+     display: flex;
+     align-items:center;
+     justify-content:space-around;
+    
+     
+ 
+}
+.middle-wrapper{
+     background: #F6FBFF;
+     margin-top:-2rem;
+}
+.middle-wrapper-content-image img{
+width: 450px;
+height: 450px;
 }
