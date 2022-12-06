@@ -191,4 +191,17 @@ height: 450px;
 
 footer{
     margin-top: 10rem;
-}
+} 
+
+.box-content svg path{
+  fill: #fff !important;
+
+} 
+
+ .box{
+    display: flex;
+    align-items:center;
+   justify-content:space-evenly;
+} 
+
+
