@@ -418,7 +418,36 @@ margin-bottom: 5rem;
 .last-section{
     display: flex;
     flex-direction: column;
-    margin-bottom: 6.5rem;
+    margin-bottom: 4.5rem;
     gap: 1rem;
 } 
 
+input{
+    width:320px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+
+
+.footer-btn{
+    width: 160px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #ff52c1;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-family:'Open Sans', sans-serif;
+    margin-left: 1.6rem;
+    border: none;
+    ;
+
+}
+
+.footer-btn:hover{
+    background-color: #ff8ed7;
+    cursor: pointer;
+}
