@@ -16,7 +16,7 @@
     width: 1297px;
  }
 
-.first-section .header{
+header .header{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,18 +155,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    gap: 20rem;
     margin-top: 5rem;
    
 } 
 
-.small-text-content1{
+/* .small-text-content1{
     margin-right: 10rem;
 } 
 
 .small-text-content2{
     margin-left: 20rem;
-} 
+}  */
 
 .main-wrapper{
     margin-top: 5rem;
@@ -269,7 +269,9 @@ line-height: 24px;
 font-family:'Open Sans', sans-serif;
 }
 
-
+.middle-image{
+    display: none;
+}
 
 
 .seventh-section-items{
@@ -450,4 +452,132 @@ input{
 .footer-btn:hover{
     background-color: #ff8ed7;
     cursor: pointer;
+} 
+
+ @media only screen and (max-width:375px) and (min-width:280px){
+    main{
+       width: 400px;
+    }
+
+  
+ /* .logo{
+    width: 96px;
+    height:16px;  
+ }
+
+ .btn1{
+    width: 80px;
+    height: 24px;
+ } */
+
+.middle-content1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 280px;
+ font-family: 'Poppins', sans-serif;
+ margin-top: 5rem;
+} 
+
+
+.middle-content2{
+    width: 296px;
+    text-align: center;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+    margin-top: 2rem;
+
 }
+
+.middle-btn{
+    width:200px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+.middle-image{
+    display: inline;
+    margin-top: 3rem;
+}
+
+.middle-content svg{
+    display: none;
+}
+
+.small-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+}
+
+.small-text-content1 img{
+    width: 29.21px;
+    height: 26.11px;
+}
+
+.small-text-content1 h2{
+    font-family:'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 60.9524px;
+    font-weight: 700;
+    line-height: 91px;
+}
+
+.small-text-content1 span{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15.24px;
+    font-weight: 400;
+    line-height: 23px;
+    font-style: normal;
+}
+
+
+.small-text-content2 img{
+    width: 31.22px;
+    height: 31.22px; 
+}
+
+.small-text-content2{
+ position: relative;
+ bottom: 15rem;
+ left: 1.5rem;
+}
+
+.small-text-content2 h2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 53.5192px;
+    font-size: 700;
+    line-height: 80px;
+    font-style: normal;
+    margin-left: 2rem;
+}
+
+
+
+.middle-wrapper-content-image img{
+    width: 280px;
+    height: 280px;
+}
+
+.middle-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.middle-wrapper2{
+    display:flex;
+    flex-direction:column;
+}
+.middle-wrapper3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+} 
